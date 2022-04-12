@@ -8,8 +8,8 @@ bool isPalindrom (string &s, int L, int R){
 
 int main()
 {
-    string s = "12531";
-    cout << isPalindrom(s, 0, s.size()-1);
+    string s = "";
+    cout << isPalindrom(s, 0, (int)s.size()-1);
    
     return 0;
 }
